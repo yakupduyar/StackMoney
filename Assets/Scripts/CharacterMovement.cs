@@ -42,7 +42,7 @@ public class CharacterMovement : MonoBehaviour
             _moveDir = Vector3.right * direction.x + Vector3.forward * direction.y;
             _controller.Move(_moveDir*moveSpeed*Time.deltaTime);
             _lookRot = Quaternion.LookRotation(_moveDir.normalized, Vector3.up);
-            transform.rotation = Quaternion.Slerp(transform.rotation,_lookRot,Time.deltaTime*rotateSpeed);
+            transform.rotation = Quaternion.Slerp(transform.rotation,_lookRot,Time.deltaTime*rotateSpeed*_moveDir.sqrMagnitude);
             ControlAnimations(direction);
         }
 
