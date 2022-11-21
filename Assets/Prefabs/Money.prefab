@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2957462570943184355}
   - component: {fileID: 6794791080955912136}
+  - component: {fileID: 6294911965329300339}
   m_Layer: 0
   m_Name: Money
   m_TagString: Money
@@ -130,3 +131,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 0.083546996, z: 0.30740237}
   m_Center: {x: 0.0008672774, y: -0.0047247056, z: 0.0000010803342}
+--- !u!114 &6294911965329300339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8813531623130699765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f4fc558dc5fb949a6543f15af303ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: 1

@@ -649,7 +649,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: e4a42ac7e36f2a04d8cb15eea4c9d71b, type: 2}
-  - {fileID: -876546973899608171, guid: 723f3c85e84012645a8801a1e226ed65, type: 3}
+  - {fileID: 2100000, guid: e4a42ac7e36f2a04d8cb15eea4c9d71b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -846,6 +846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moneysPivot: {fileID: 8229628633067266743}
   moneyThickness: 0.2
+  spendInterval: 0.25
   moneys: []
 --- !u!143 &5385845336277513898
 CharacterController:
